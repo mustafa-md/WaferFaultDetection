@@ -196,8 +196,3 @@ class dBOperation:
         except Exception as e:
             self.logger.log(log_file, "File exporting failed. Error : %s" %e)
             raise e
-
-
-
-
-
